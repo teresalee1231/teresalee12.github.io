@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+/* .App {
+  margin: 100px auto;
+  width: 75%;
+} */
+
+.about {
+  width: 90%;
+  margin-left: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-pic img{
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+
+  position: relative;
+  overflow: hidden;
+  border: #082213;
+  border-radius: 50%;
+  border-style: solid;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.paragraph h1 {
+  font-size: 50px;
+  padding: 5px;
+  color: #082213;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#card-holder {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 300px;
+  /* background-color: #638bb3; */
+
+}
+
+#test {
+  margin-top: 100px;
+  display: flex;
+  margin-left: 30px;
+}
+
+#test p {
+  font-size: 36px;
+}
+
+.card {
+  min-width: 300px;
   display: flex;
   flex-direction: column;
+
+  height: 300px;
+  padding: 35px;
+
+  border: 1px solid rgba(8, 34, 19, 0.25);
+  border-radius: 20px;
+  background-color: rgba(8, 34, 19, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
+  margin: 30px;
+
+}
+
+.proj-img {
+  display: block;
+  height: 75%;
+  margin: auto;
+}
+
+.proj-title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  justify-content: space-between;
+  background-color: black;
 }
