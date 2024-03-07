@@ -1,7 +1,7 @@
 function Header() {
   return(
     <div className="header">
-    <p>words</p>
+      <p>words</p>
   </div>
   );
 

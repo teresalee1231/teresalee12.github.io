@@ -1,7 +1,7 @@
 import Card from "./Card.jsx";
 function Cardholder() {
   return(
-    <div>
+    <div className="format">
       <div id="test">
         <p>Trols</p>
       </div>
