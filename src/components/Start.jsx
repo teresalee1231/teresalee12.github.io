@@ -5,7 +5,7 @@ function Start() {
         <h1>Trols</h1>
       </div>
 
-      <img src="images/trolls.jpg" alt="branch from trolls"/>
+      <img src="images/eviesleeping.jpg" alt="branch from trolls"/>
     </div>
   );
 }

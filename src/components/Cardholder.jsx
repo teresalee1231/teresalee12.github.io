@@ -15,9 +15,9 @@ function Cardholder() {
           alt="Branch from tolls"
         />
         <Card
-          img="images/trolls.jpg"
+          img="images/kv2square.png"
           link="https://slimesnboxes.pages.dev/"
-          title="Trols"
+          title="CSE Games Capstone - Slimes 'n' Boxes"
           alt="Branch from tolls"
         />
 
@@ -29,17 +29,17 @@ function Cardholder() {
         />
 
         <Card
-          img="images/trolls.jpg"
+          img="images/stylegan.png"
           link="https://www.youtube.com/watch?v=_x7jpMqJFF0"
-          title="Trols"
+          title="Exploration Topic - StyleGANs"
           alt="Branch from tolls"
         />
 
 
         <Card
-          img="images/trolls.jpg"
+          img="images/catdog.png"
           link="https://cat-dog.jhyn.dev/"
-          title="Trols"
+          title="Image Classification - Cat vs Dog"
           alt="Branch from tolls"
         />
 

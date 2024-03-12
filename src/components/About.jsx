@@ -3,7 +3,7 @@ function About() {
     <div className="format">
       <div className="about">
         <div className="main-pic">
-          <img src="images/trolls.jpg" alt="Branch from Trolls"/>
+          <img src="images/me.jpg" alt="Branch from Trolls"/>
         </div>
 
         <div className="paragraph">
