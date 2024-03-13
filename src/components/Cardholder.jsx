@@ -3,7 +3,7 @@ function Cardholder() {
   return(
     <div className="format">
       <div id="title-placement">
-        <p>Trols</p>
+        <p>Projects</p>
       </div>
 
       <div id="card-holder">

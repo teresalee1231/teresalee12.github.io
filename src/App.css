@@ -14,7 +14,6 @@
   padding: 30px;
 }
 
-
 .main-pic img{
   float: left;
   width: 200px;
@@ -29,7 +28,6 @@
   border-style: solid;
 }
 
-
 .paragraph h1 {
   font-size: 50px;
   padding: 5px;
@@ -39,19 +37,18 @@
 #card-holder {
   display: flex;
   flex-wrap: wrap;
-  min-width: 300px;
+  /* min-width: 300px; */
   /* background-color: #638bb3; */
 }
 
 #title-placement {
-  margin-top: 100px;
   display: flex;
   flex-direction: row;
   margin-left: 30px;
 }
 
 #title-placement p {
-  font-size: 36px;
+  font-size: 50px;
   color: #002A00;
 }
 
@@ -69,8 +66,7 @@
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
 
   backdrop-filter: blur(15px);
-  margin-top: 0;
-  margin: 50px;
+  margin: 40px;
 
 }
 
@@ -89,7 +85,8 @@
 .header {
   display: flex;
   position: fixed;
-  transition: opacity 2s ease-in;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
   align-items: center;
   top: 0px;
   width: 100vw;
@@ -105,7 +102,16 @@
     float: left;
     height: 50px;
     width: 50px;
+
   }
+}
+
+.active {
+  opacity: 1;
+}
+
+.blur {
+  filter: blur(5px);
 }
 
 .start {
@@ -116,6 +122,10 @@
   align-items: center;
   position: relative;
   scroll-snap-align: center;
+
+  h1 {
+    color: white;
+  }
 
   img {
     position: relative;
@@ -135,15 +145,7 @@
       font-size: 1.4rem;
       text-align: center;
     }
-  }
 
-  button {
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    z-index: 2;
   }
 
   .App {
