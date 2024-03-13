@@ -9,16 +9,16 @@ function Cardholder() {
       <div id="card-holder">
 
         <Card
-          img="images/trolls.jpg"
-          link="https://research.fredhutch.org/wu/en/michael-wu.html"
-          title="Trols"
-          alt="Branch from tolls"
+          img="images/fred-hutch-logo.png"
+          link="https://www.biorxiv.org/content/10.1101/2023.09.22.559069v1"
+          title="SurvBal"
+          alt="Fred Hutch Logo"
         />
         <Card
           img="images/kv2square.png"
           link="https://slimesnboxes.pages.dev/"
           title="CSE Games Capstone - Slimes 'n' Boxes"
-          alt="Branch from tolls"
+          alt="Thumbnail for Slimes 'n' Boxes"
         />
 
         <Card
@@ -32,7 +32,7 @@ function Cardholder() {
           img="images/stylegan.png"
           link="https://www.youtube.com/watch?v=_x7jpMqJFF0"
           title="Exploration Topic - StyleGANs"
-          alt="Branch from tolls"
+          alt="StyleGAN character drawn by me"
         />
 
 
@@ -40,7 +40,7 @@ function Cardholder() {
           img="images/catdog.png"
           link="https://cat-dog.jhyn.dev/"
           title="Image Classification - Cat vs Dog"
-          alt="Branch from tolls"
+          alt="Cat character drawn by me"
         />
 
         <Card
