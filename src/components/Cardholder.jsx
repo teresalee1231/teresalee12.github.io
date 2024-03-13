@@ -11,7 +11,7 @@ function Cardholder() {
         <Card
           img="images/fred-hutch-logo.png"
           link="https://www.biorxiv.org/content/10.1101/2023.09.22.559069v1"
-          title="SurvBal"
+          title="Fred Hutch - SurvBal"
           alt="Fred Hutch Logo"
         />
         <Card
@@ -24,7 +24,7 @@ function Cardholder() {
         <Card
           img="images/trolls.jpg"
           link="https://cse442.pages.cs.washington.edu/au22/fp/CoolestGroup/"
-          title="Trols"
+          title="CSE 442 - Pokemon Stats Distribution"
           alt="Branch from tolls"
         />
 
@@ -45,8 +45,8 @@ function Cardholder() {
 
         <Card
           img="images/trolls.jpg"
-          link="https://www.google.com/"
-          title="Trols"
+          link="https://github.com/teresalee1231/"
+          title="More projects coming soon :)"
           alt="Branch from Trolls"
         />
       </div>
