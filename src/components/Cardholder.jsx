@@ -22,10 +22,10 @@ function Cardholder() {
         />
 
         <Card
-          img="images/trolls.jpg"
+          img="images/pokeball.png"
           link="https://cse442.pages.cs.washington.edu/au22/fp/CoolestGroup/"
           title="CSE 442 - Pokemon Stats Distribution"
-          alt="Branch from tolls"
+          alt="Pokeball from the game Pokemon"
         />
 
         <Card
@@ -44,7 +44,7 @@ function Cardholder() {
         />
 
         <Card
-          img="images/trolls.jpg"
+          img="images/filler.png"
           link="https://github.com/teresalee1231/"
           title="More projects coming soon :)"
           alt="Branch from Trolls"

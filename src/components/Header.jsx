@@ -20,7 +20,6 @@ function Header() {
 
   return(
     <div className={`header ${isVisible && "active"}`}>
-      <img src="/images/trolls.jpg" alt="branch from trolls"/>
       <a href="https://github.com/teresalee1231/">
         <p>Github</p>
       </a>
