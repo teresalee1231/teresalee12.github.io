@@ -52,11 +52,11 @@ p {
 
 #title-placement {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-left: 30px;
 }
 
-#title-placement p {
+#title-placement h2 {
   font-size: 50px;
   color: #002A00;
   font-style: bold;
