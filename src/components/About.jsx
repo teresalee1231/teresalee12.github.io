@@ -16,7 +16,8 @@ function About() {
             If you would like to chat or connect, feel free
             to <a href="mailto:tersalee1231@gmail.com">email</a> me!
           </p>
-          <p>As of right now, I am currently learning Swift, and drawing on the side!
+          <p>As of right now, I am currently working on a Study app, learning swift,
+            and drawing on the side!
             Stay tuned for more updates on my website.
           </p>
         </div>
