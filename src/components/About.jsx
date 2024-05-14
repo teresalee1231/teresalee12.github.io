@@ -11,8 +11,7 @@ function About() {
           <p>I am a software engineer born and raised in Seattle! I am passonate
             about creativity and creating technology for the community.
             I'm always looking forward to new opportunities to showcase
-            my skillset, improving on what I know, and learning new things. Besides
-            software, I love to doodle/draw, game, and indulge in some good shows.
+            my skillset, improving on what I know, and learning new things.
             If you would like to chat or connect, feel free
             to <a href="mailto:tersalee1231@gmail.com">email</a> me!
           </p>

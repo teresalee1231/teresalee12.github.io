@@ -1,0 +1,49 @@
+.format2 {
+  margin: 100px auto;
+  width: 75%;
+  background-color: #f7c6de;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 1px rgba(8, 34, 19, 0.25);
+}
+
+.about2 {
+  padding: 30px;
+}
+
+.main-pic2 img{
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  object-fit: cover;
+
+  position: relative;
+  overflow: hidden;
+  border: #802b54;
+  border-radius: 50%;
+  border-style: solid;
+}
+
+.paragraph2 h1 {
+  font-size: 70px;
+  color: #802b54;
+}
+
+#title-placement2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+#title-placement2 h2 {
+  font-size: 50px;
+  color: #802b54;
+  font-style: bold;
+}
+
+.display img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  overflow: hidden;
+}

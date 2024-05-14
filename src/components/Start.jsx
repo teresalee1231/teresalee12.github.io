@@ -23,7 +23,7 @@ function Start() {
         <h1>Teresa Lee</h1>
       </div>
 
-      <img src="images/eviesleeping.jpg" alt="Mostly black chiweenie sleeping on bed"/>
+      {/* <img src="images/eviesleeping.jpg" alt="Mostly black chiweenie sleeping on bed"/> */}
     </div>
   );
 }
