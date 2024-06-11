@@ -1,5 +1,6 @@
 import {useState, useEffect} from "react";
 import { animateScroll as scroll } from "react-scroll";
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,6 +30,10 @@ function Header() {
       <a href="/TeresaLeeResume.pdf">
         <p>Resume</p>
       </a>
+
+      <Link to="/">test</Link>
+      <Link to="/hobbies">Hobbies</Link>
+
 
   </div>
   );

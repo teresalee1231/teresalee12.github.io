@@ -9,8 +9,12 @@ function About2() {
         <div className="paragraph2">
           <h1>Hi, I'm Teresa!</h1>
           <p>
-            I am an avid doodler, an "artist" perhaps. In my spare time, I love
-            to draw and make designs.
+            I am an avid doodler. In my spare time, I love
+            to draw, make random designs, and play video games!
+          </p>
+          <p>
+            Currently, I am playing Honkai: Star Rail. Feel free to
+            reach out for my UID!
           </p>
 
         </div>
