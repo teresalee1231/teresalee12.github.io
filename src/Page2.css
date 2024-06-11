@@ -41,9 +41,28 @@
   font-style: bold;
 }
 
-.display img {
-  height: 500px;
-  width: 500px;
-  object-fit: cover;
-  overflow: hidden;
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
 }
+
+.display-ctn {
+  display: inline-block;
+  margin-right: 3%;
+  max-width: 400px;
+}
+
+.display-ctn > img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  min-width: 100%;
+  vertical-align: middle;
+}
+
+/* .display img {
+
+} */
