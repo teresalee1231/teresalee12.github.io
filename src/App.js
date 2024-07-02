@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Start from "./components/Start";
 import MainPage from "./pages/MainPage";
 import SecondPage from "./pages/SecondPage";
+import Story from "./pages/Story";
 import './App.css';
 import'./Page2.css';
 
@@ -28,6 +29,9 @@ function App() {
 
           <Route path="/hobbies" element={<SecondPage />}>
             {/* <SecondPage /> */}
+          </Route>
+
+          <Route path="/story" element={<Story />}>
           </Route>
         </Routes>
 

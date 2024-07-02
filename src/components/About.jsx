@@ -1,9 +1,14 @@
+import { Link } from 'react-router-dom';
+
 function About() {
   return (
     <div className="format">
       <div className="about">
         <div className="main-pic">
+          <Link to="/story">
           <img src="images/me.jpg" alt="Branch from Trolls"/>
+          </Link>
+
         </div>
 
         <div className="paragraph">

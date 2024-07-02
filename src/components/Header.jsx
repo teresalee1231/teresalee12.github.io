@@ -21,6 +21,12 @@ function Header() {
 
   return(
     <div className={`header ${isVisible && "active"}`}>
+      <Link to="/">
+        <p>Home</p>
+      </Link>
+      <Link to="/hobbies">
+        <p>Hobbies</p>
+      </Link>
       <a href="https://github.com/teresalee1231/">
         <p>Github</p>
       </a>
@@ -31,8 +37,7 @@ function Header() {
         <p>Resume</p>
       </a>
 
-      <Link to="/">test</Link>
-      <Link to="/hobbies">Hobbies</Link>
+
 
 
   </div>
