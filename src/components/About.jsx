@@ -18,7 +18,7 @@ function About() {
             I'm always looking forward to new opportunities to showcase
             my skillset, improving on what I know, and learning new things.
             If you would like to chat or connect, feel free
-            to <a href="mailto:tersalee1231@gmail.com">email</a> me!
+            to <a href="mailto:teresalee1231@gmail.com">email</a> me!
           </p>
           <p>As of right now, I am currently on the Leetcode grind (:c)
             Stay tuned for more updates on my website.
